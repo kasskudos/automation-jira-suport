@@ -2,7 +2,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 
 # Variável global para armazenar o current_support_id
-current_support_id = "PFDATSERV-1710"
+current_support_id = "PFDATSERV-2442"
 
 class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
     def do_HEAD(self):
